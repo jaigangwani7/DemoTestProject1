@@ -14,5 +14,6 @@ public class LoginTest extends TestBase
 	{
 		LoginPage loginTest = new LoginPage();
 		loginTest.loginToApplication(Constant.userName,Constant.passWord);
+		loginTest.clickOnLogout();
 	}
 }

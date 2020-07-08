@@ -30,6 +30,10 @@ public class LoginPage
 	@FindBy(xpath="//*[@id='SubmitCreate']")
 	WebElement createAnAccount;
 	
+	@FindBy(xpath ="//a[@title='Log me out']")
+	WebElement logout;
+	
+
 	
 	public LoginPage()
 	{
@@ -86,5 +90,13 @@ public class LoginPage
 		TestBase.logExtentReport("clicking on create an account button..");
 		createAnAccount.click();	
 
+	}
+	
+	public void clickOnLogout()
+	{
+		log.info("Logging out from App...");
+		TestBase.logExtentReport("Logging out from App...");
+		logout.click();
+		
 	}
 }
