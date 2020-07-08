@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[captureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_08_07_2020_07_03_58.png'><img src='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_08_07_2020_07_03_58.png'height='100' width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23740" started-at="2020-07-08T13:33:35Z" finished-at="2020-07-08T13:33:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23740" started-at="2020-07-08T13:33:35Z" finished-at="2020-07-08T13:33:59Z">
+      <class name="com.NewProject.testScript.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="beforeSuite" is-config="true" duration-ms="272" started-at="2020-07-08T19:03:35Z" finished-at="2020-07-08T19:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="beforeMethod" is-config="true" duration-ms="18806" started-at="2020-07-08T19:03:35Z" finished-at="2020-07-08T19:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="beforeTest" is-config="true" duration-ms="4" started-at="2020-07-08T19:03:54Z" finished-at="2020-07-08T19:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2020-07-08T19:03:54Z" finished-at="2020-07-08T19:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.NewProject.testScript.LoginTest.testValidLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="testValidLogin" duration-ms="4017" started-at="2020-07-08T19:03:54Z" finished-at="2020-07-08T19:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="afterMethod" is-config="true" duration-ms="878" started-at="2020-07-08T19:03:58Z" finished-at="2020-07-08T19:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[captureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_08_07_2020_07_03_58.png'><img src='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_08_07_2020_07_03_58.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.NewProject.testScript.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

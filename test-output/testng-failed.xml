@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.NewProject.testScript.TillPaymentPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testTillPaymentPage"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.NewProject.testScript.TillPaymentPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

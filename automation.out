@@ -1,0 +1,7 @@
+2020-07-08 19:07:699 INFO  TestBase:51 - **************testValidLoginStarted***************
+2020-07-08 19:07:728 INFO  LoginPage:37 - Login Page Object Created
+2020-07-08 19:07:728 INFO  LoginPage:43 - clicked on sign in link...
+2020-07-08 19:07:831 INFO  LoginPage:49 - entering email address....testmail1234567@gmail.com
+2020-07-08 19:07:24 INFO  LoginPage:55 - entering password....Test@123
+2020-07-08 19:07:128 INFO  LoginPage:61 - clicking on submit button...
+2020-07-08 19:07:322 INFO  TestBase:82 - **************testValidLoginFinished***************
