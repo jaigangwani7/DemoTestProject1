@@ -1,8 +1,23 @@
-2020-07-08 19:07:445 INFO  TestBase:51 - **************testValidLoginStarted***************
-2020-07-08 19:07:477 INFO  LoginPage:41 - Login Page Object Created
-2020-07-08 19:07:477 INFO  LoginPage:47 - clicked on sign in link...
-2020-07-08 19:07:568 INFO  LoginPage:53 - entering email address....testmail1234567@gmail.com
-2020-07-08 19:07:751 INFO  LoginPage:59 - entering password....Test@123
-2020-07-08 19:07:860 INFO  LoginPage:65 - clicking on submit button...
-2020-07-08 19:07:602 INFO  LoginPage:97 - Logging out from App...
-2020-07-08 19:07:448 INFO  TestBase:82 - **************testValidLoginFinished***************
+2020-07-09 13:07:465 INFO  TestBase:51 - **************testValidLoginStarted***************
+2020-07-09 13:07:497 INFO  LoginPage:41 - Login Page Object Created
+2020-07-09 13:07:501 INFO  LoginPage:47 - clicked on sign in link...
+2020-07-09 13:07:468 INFO  LoginPage:53 - entering email address....testmail1234567@gmail.com
+2020-07-09 13:07:601 INFO  LoginPage:59 - entering password....Test@123
+2020-07-09 13:07:685 INFO  LoginPage:65 - clicking on submit button...
+2020-07-09 13:07:851 INFO  LoginPage:97 - Logging out from App...
+2020-07-09 13:07:690 INFO  TestBase:82 - **************testValidLoginFinished***************
+2020-07-09 13:07:916 INFO  TestBase:51 - **************testTillPaymentPageStarted***************
+2020-07-09 13:07:916 INFO  LoginPage:41 - Login Page Object Created
+2020-07-09 13:07:916 INFO  LoginPage:47 - clicked on sign in link...
+2020-07-09 13:07:90 INFO  LoginPage:53 - entering email address....testmail1234567@gmail.com
+2020-07-09 13:07:274 INFO  LoginPage:59 - entering password....Test@123
+2020-07-09 13:07:366 INFO  LoginPage:65 - clicking on submit button...
+2020-07-09 13:07:41 INFO  NavigationMenu:36 - doing mouse over on :Women
+2020-07-09 13:07:93 INFO  NavigationMenu:43 - click on : Women
+2020-07-09 13:07:838 INFO  ProductCategoryPage:45 - clicking on add to cart
+2020-07-09 13:07:11 INFO  ProductCategoryPage:51 - clicking on proceed to checkout button
+2020-07-09 13:07:995 INFO  ShoppinCartSummaryPage:45 - Clicked on Proceed to Checkout At Cart
+2020-07-09 13:07:896 INFO  ShoppinCartSummaryPage:52 - Clicked on Proceed to Checkout At Address
+2020-07-09 13:07:66 INFO  ShoppinCartSummaryPage:59 - Clicked on Terms and Services
+2020-07-09 13:07:158 INFO  ShoppinCartSummaryPage:66 - Clicked on Proceed to Checkout At Shipping
+2020-07-09 13:07:865 INFO  TestBase:82 - **************testTillPaymentPageFinished***************

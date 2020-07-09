@@ -1,31 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_08_07_2020_07_38_39.png'><img src='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_08_07_2020_07_38_39.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_09_07_2020_01_30_01.png'><img src='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_09_07_2020_01_30_01.png'height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[captureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testTillPaymentPage_09_07_2020_01_30_18.png'><img src='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testTillPaymentPage_09_07_2020_01_30_18.png'height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24813" started-at="2020-07-08T14:08:15Z" finished-at="2020-07-08T14:08:40Z">
+  <suite name="Suite" duration-ms="41161" started-at="2020-07-09T07:59:37Z" finished-at="2020-07-09T08:00:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24813" started-at="2020-07-08T14:08:15Z" finished-at="2020-07-08T14:08:40Z">
-      <class name="com.NewProject.testScript.LoginTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="beforeSuite" is-config="true" duration-ms="161" started-at="2020-07-08T19:38:15Z" finished-at="2020-07-08T19:38:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="beforeMethod" is-config="true" duration-ms="16471" started-at="2020-07-08T19:38:15Z" finished-at="2020-07-08T19:38:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="beforeTest" is-config="true" duration-ms="5" started-at="2020-07-08T19:38:32Z" finished-at="2020-07-08T19:38:32Z">
+    <test name="Test" duration-ms="41161" started-at="2020-07-09T07:59:37Z" finished-at="2020-07-09T08:00:18Z">
+      <class name="com.NewProject.testScript.TillPaymentPage">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.NewProject.testScript.TillPaymentPage@2d928643]" name="beforeTest" is-config="true" duration-ms="5" started-at="2020-07-09T13:30:02Z" finished-at="2020-07-09T13:30:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="beforeMethod" is-config="true" duration-ms="20" started-at="2020-07-08T19:38:32Z" finished-at="2020-07-08T19:38:32Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.NewProject.testScript.TillPaymentPage@2d928643]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-09T13:30:02Z" finished-at="2020-07-09T13:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.NewProject.testScript.TillPaymentPage.testTillPaymentPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testTillPaymentPage()[pri:0, instance:com.NewProject.testScript.TillPaymentPage@2d928643]" name="testTillPaymentPage" duration-ms="15717" started-at="2020-07-09T13:30:02Z" finished-at="2020-07-09T13:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTillPaymentPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.NewProject.testScript.TillPaymentPage@2d928643]" name="afterMethod" is-config="true" duration-ms="516" started-at="2020-07-09T13:30:18Z" finished-at="2020-07-09T13:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTillPaymentPage status=SUCCESS method=TillPaymentPage.testTillPaymentPage()[pri:0, instance:com.NewProject.testScript.TillPaymentPage@2d928643] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[captureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testTillPaymentPage_09_07_2020_01_30_18.png'><img src='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testTillPaymentPage_09_07_2020_01_30_18.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.NewProject.testScript.TillPaymentPage -->
+      <class name="com.NewProject.testScript.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.NewProject.testScript.LoginTest@6adede5]" name="beforeSuite" is-config="true" duration-ms="180" started-at="2020-07-09T13:29:37Z" finished-at="2020-07-09T13:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.NewProject.testScript.LoginTest@6adede5]" name="beforeMethod" is-config="true" duration-ms="18210" started-at="2020-07-09T13:29:37Z" finished-at="2020-07-09T13:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.NewProject.testScript.LoginTest@6adede5]" name="beforeTest" is-config="true" duration-ms="4" started-at="2020-07-09T13:29:55Z" finished-at="2020-07-09T13:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.NewProject.testScript.LoginTest@6adede5]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2020-07-09T13:29:55Z" finished-at="2020-07-09T13:29:55Z">
           <params>
             <param index="0">
               <value>
@@ -36,15 +80,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="testValidLogin" duration-ms="7539" started-at="2020-07-08T19:38:32Z" finished-at="2020-07-08T19:38:39Z">
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:com.NewProject.testScript.LoginTest@6adede5]" name="testValidLogin" duration-ms="5894" started-at="2020-07-09T13:29:55Z" finished-at="2020-07-09T13:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b]" name="afterMethod" is-config="true" duration-ms="758" started-at="2020-07-08T19:38:39Z" finished-at="2020-07-08T19:38:40Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.NewProject.testScript.LoginTest@6adede5]" name="afterMethod" is-config="true" duration-ms="774" started-at="2020-07-09T13:30:01Z" finished-at="2020-07-09T13:30:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:com.NewProject.testScript.LoginTest@5649fd9b] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:com.NewProject.testScript.LoginTest@6adede5] output={null}]]]>
               </value>
             </param>
           </params>
@@ -53,11 +97,11 @@
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_08_07_2020_07_38_39.png'><img src='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_08_07_2020_07_38_39.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_09_07_2020_01_30_01.png'><img src='C:\Users\Sunny\workspace\DemoTestProject1\src\main\resources\screenshot\testValidLogin_09_07_2020_01_30_01.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.NewProject.testScript.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
